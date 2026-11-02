@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Material 3 color roles — light scheme -->
+    <color name="md_primary">#5B4CD6</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#E4DFFF</color>
+    <color name="md_on_primary_container">#1B1249</color>
+
+    <color name="md_secondary">#5D5C72</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#E2E0F9</color>
+    <color name="md_on_secondary_container">#1A1A2C</color>
+
+    <color name="md_surface">#FFFBFF</color>
+    <color name="md_on_surface">#1C1B1F</color>
+    <color name="md_surface_variant">#E7E0EC</color>
+    <color name="md_on_surface_variant">#49454E</color>
+
+    <color name="md_background">#FFFBFF</color>
+    <color name="md_on_background">#1C1B1F</color>
+    <color name="md_outline">#79747E</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+
+    <!-- Contact-avatar circle -->
+    <color name="avatar_background">#E4DFFF</color>
+    <color name="avatar_text">#1B1249</color>
+
+    <!-- Message bubbles -->
+    <color name="bubble_outgoing">#E4DFFF</color>
+    <color name="bubble_incoming">#F1EFF4</color>
+</resources>

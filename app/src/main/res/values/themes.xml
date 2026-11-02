@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Material 3 color roles wired to our palette. -->
+    <style name="Base.Theme.Ft_hangouts" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorOnPrimary">@color/md_on_primary</item>
+        <item name="colorPrimaryContainer">@color/md_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/md_on_primary_container</item>
+
+        <item name="colorSecondary">@color/md_secondary</item>
+        <item name="colorOnSecondary">@color/md_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/md_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/md_on_secondary_container</item>
+
+        <item name="colorSurface">@color/md_surface</item>
+        <item name="colorOnSurface">@color/md_on_surface</item>
+        <item name="colorSurfaceVariant">@color/md_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/md_on_surface_variant</item>
+
+        <item name="android:colorBackground">@color/md_background</item>
+        <item name="colorOnBackground">@color/md_on_background</item>
+        <item name="colorOutline">@color/md_outline</item>
+
+        <item name="colorError">@color/md_error</item>
+        <item name="colorOnError">@color/md_on_error</item>
+
+        <!-- Header styling. The header is always a saturated colour (the user can
+             change it), so its text and icons are forced white for contrast —
+             without this the title renders near-black on purple and looks wrong. -->
+        <item name="actionBarStyle">@style/Widget.Ft_hangouts.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.Ft_hangouts.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.Material3.Light</item>
+    </style>
+
+    <style name="Theme.Ft_hangouts" parent="Base.Theme.Ft_hangouts" />
+
+    <style name="Widget.Ft_hangouts.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Ft_hangouts.ActionBar.Title</item>
+        <item name="background">@color/md_primary</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Slightly larger, medium-weight, letter-spaced: reads as a product title
+         rather than the cramped default. -->
+    <style name="TextAppearance.Ft_hangouts.ActionBar.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.015</item>
+    </style>
+
+    <!-- Tints the overflow dots and the back arrow white to match the title. -->
+    <style name="ThemeOverlay.Ft_hangouts.ActionBar" parent="ThemeOverlay.Material3.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+</resources>

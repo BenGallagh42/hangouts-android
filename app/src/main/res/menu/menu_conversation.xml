@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Conversation screen: jump to the contact's profile -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_contact_details"
+        android:icon="@drawable/ic_nav_person"
+        android:title="@string/title_contact_detail"
+        app:showAsAction="ifRoom" />
+</menu>

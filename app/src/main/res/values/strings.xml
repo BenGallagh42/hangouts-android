@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ft_hangouts</string>
+    <string name="no_contacts_message">No contacts yet</string>
+    <string name="preview_sent_prefix">You: %1$s</string>
+    <string name="action_change_header_color">Change header color</string>
+    <string name="action_add_contact">Add contact</string>
+
+    <string name="title_add_contact">Add Contact</string>
+    <string name="title_edit_contact">Edit Contact</string>
+    <string name="label_first_name">First name</string>
+    <string name="label_last_name">Last name</string>
+    <string name="label_phone">Phone number</string>
+    <string name="label_email">Email</string>
+    <string name="label_address">Address</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>
+    <string name="error_first_name_required">First name is required</string>
+    <string name="error_phone_required">Phone number is required</string>
+
+    <string name="title_contact_detail">Contact Detail</string>
+    <string name="button_message">Message</string>
+    <string name="button_call">Call</string>
+    <string name="button_edit">Edit</string>
+    <string name="dialog_delete_contact_title">Delete contact?</string>
+    <string name="dialog_delete_contact_message">This will also delete the conversation history with this contact.</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="title_conversation">Conversation</string>
+    <string name="hint_message">Type a message</string>
+    <string name="button_send">Send</string>
+    <string name="label_you">You</string>
+    <string name="error_sms_permission_required">SMS permission is required to send messages</string>
+    <string name="error_sms_send_failed">Could not send the message</string>
+
+    <string name="button_choose_photo">Choose photo</string>
+    <string name="button_remove_photo">Remove photo</string>
+    <string name="contact_photo_description">Contact photo</string>
+    <string name="error_photo_failed">Could not load that image</string>
+
+    <string name="error_no_dialer">No phone app available on this device</string>
+
+    <string name="toast_last_backgrounded">Last backgrounded: %1$s</string>
+
+    <string-array name="header_color_names">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Orange</item>
+    </string-array>
+</resources>

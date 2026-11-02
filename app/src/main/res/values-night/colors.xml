@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 color roles — dark scheme -->
+    <color name="md_primary">#C6BFFF</color>
+    <color name="md_on_primary">#31275F</color>
+    <color name="md_primary_container">#493D82</color>
+    <color name="md_on_primary_container">#E4DFFF</color>
+
+    <color name="md_secondary">#C6C4DD</color>
+    <color name="md_on_secondary">#2F2F42</color>
+    <color name="md_secondary_container">#454559</color>
+    <color name="md_on_secondary_container">#E2E0F9</color>
+
+    <color name="md_surface">#1C1B1F</color>
+    <color name="md_on_surface">#E6E1E6</color>
+    <color name="md_surface_variant">#49454E</color>
+    <color name="md_on_surface_variant">#CAC4D0</color>
+
+    <color name="md_background">#1C1B1F</color>
+    <color name="md_on_background">#E6E1E6</color>
+    <color name="md_outline">#948F99</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+
+    <color name="avatar_background">#493D82</color>
+    <color name="avatar_text">#E4DFFF</color>
+
+    <color name="bubble_outgoing">#493D82</color>
+    <color name="bubble_incoming">#2B2930</color>
+</resources>
